@@ -20,6 +20,7 @@ body {
   border-radius: 12px;
 }
 .hero h1 {
+  font-family: "Courgette", cursive;
   font-size: 125px;
 }
 .hero h2 {
