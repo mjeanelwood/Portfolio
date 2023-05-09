@@ -1,3 +1,7 @@
+body {
+  background-color: #323643;
+}
+
 .homepage {
   background-image: url(../images/bg-2-a.jpg);
   background-repeat: no-repeat;
@@ -78,6 +82,7 @@ p {
 h2 {
   padding: 15px;
   margin: 0;
+  color: whitesmoke;
 }
 
 img {
@@ -91,12 +96,14 @@ img {
   background-color: lightgray;
 }
 
-.concepts {
-  margin: 25px 50px;
+.concepts,
+.challenges {
+  margin: 0px 50px;
   padding-top: 20px;
   border-radius: 5px;
 }
-.concepts-content {
+.concepts-content,
+.challenges-content {
   background-color: lightgray;
 }
 @media (max-width: 600px) {
